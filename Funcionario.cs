@@ -18,7 +18,7 @@ namespace ExercicioPOO
 
         public void ConsultarSalario()
         {
-            Console.WriteLine($"O salario do funcionário {Nome}, de cargo {Cargo}, é {Salario:C}");
+            Console.WriteLine($"O salário do funcionário {Nome}, de cargo {Cargo}, é {Salario:C}.");
         }
     }
 }

@@ -9,11 +9,11 @@ namespace ExercicioPOO
             Velocidade = velocidade;
             if (Velocidade >= 0 && Velocidade <= 200)
             {
-                Console.WriteLine($"A velocidade é: {Velocidade}Km/h");
+                Console.WriteLine($"A velocidade do veículo é: {Velocidade}Km/h.");
             }
             else
             {
-                Console.WriteLine($"A velocidade não pode ser: {Velocidade}Km/h, pois, é inválida");
+                Console.WriteLine($"A velocidade não pode ser: {Velocidade}Km/h, pois, é inválida.");
             }
         }
     }

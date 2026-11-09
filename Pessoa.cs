@@ -12,7 +12,7 @@ namespace ExercicioPOO
         public string? Cidade { get; set; }
         public void Apresentar()
         {
-            Console.WriteLine($"{Nome} tem {Idade} anos e mora na cidade de {Cidade}");
+            Console.WriteLine($"{Nome} tem {Idade} anos e mora na cidade de {Cidade}.");
         }
     }
 }
